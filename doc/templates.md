@@ -12,14 +12,20 @@
 [Brief project description]
 
 ## Overview
-- **Language:** [Programming Language]
+- **Category:** [ASR, Language Resources, Machine Translation, Spell & Grammatek Checking, Support Tools, TTS with link to appropriate Markdown-File on Icelandic-LT GitHub page, e.g. [ASR](https://github.com/icelandic-lt/icelandic-lt/blob/main/doc/asr.md)]
+- **Domain:** [Edge Device, Server, Generic, ... ]
+- **Languages:** [Programming Languages]
 - **Language Version/Dialect:** 
   - Python: [e.g., 3.8+]
   - C++: [e.g., C++17, C++20]
   - Java: [e.g., Java 11, Java 17]
-- **Category:** [ASR, Language Resources, Machine Translation, Spell & Grammatek Checking, Support Tools, TTS with link to appropriate Markdown-File on Icelandic-LT GitHub page, e.g. [ASR](https://github.com/icelandic-lt/icelandic-lt/blob/main/doc/asr.md)]
-- **Domain:** [Edge Device, Server, Generic, ... ]
-- **Status:** [Development/Experimental/Stable/Maintenance/etc.]
+- **Audience**: [Developers, Researchers, End Users, etc.]
+- **Origin:** [Link to the original project URL]
+
+## Status
+![Development/Experimental/Production](https://img.shields.io/badge/Experimental-darkviolet)
+
+[Here follows a verbose explanation]
 
 ## System Requirements
 - [Operating System] Version: [x.y.z or higher]
@@ -44,11 +50,12 @@
 [Brief description of the project and the model]
 
 ## Model Details
-- **Task:** [Specific task, e.g., Named Entity Recognition, Machine Translation EN-IS]
-- **Language(s):** [Relevant language(s) and framework versions]
 - **Category:** [ASR, Language Resources, Machine Translation, Spell & Grammatek Checking, Support Tools, TTS with link to appropriate Markdown-File on Icelandic-LT GitHub page, e.g. [ASR](https://github.com/icelandic-lt/icelandic-lt/blob/main/doc/asr.md)]
+- **Task:** [Specific task, e.g., Named Entity Recognition, Machine Translation EN-IS]
 - **Domain:** [Edge Device, Server, Generic, ... ]
+- **Framework(s):** [Relevant language(s) and framework versions]
 - **Status:** [Development/Experimental/Stable/Maintenance/etc.]
+- **Origin:** [Link to the original model URL]
 
 ## Scripts and Workflows
 ![Inference](https://img.shields.io/badge/Inference-Available-success)

@@ -2,23 +2,120 @@
 
 ### Overview
 
-`to be done`
+The following language resources are deliverables from the Icelandic Language Technology
+Programme 2018-2022 (LT-Programme).
 
-### Projects
+They are categorized into the following groups:
 
-| Project-name | Type | <div style="width:350px"/> Description | <div style="width:100px"/> Location | Last update (05.24) | Status | Buildable | Model reproducable ? | Comment |
-|--------------|------|-------------|----------|---------------------|--------|-----------|----------------------|---------|
-| Pedi | Software | Pedi is a web application to read, edit and export pronunciation dictionaries. It has been used to create the Icelandic Pronunciation Dictionary | [GitHub](https://github.com/icelandic-lt/pedi) | 9 months | - | - | - | Add link to Pronunciation Dictionary on GitHub repository |
-| GreynirCorpus | Dataset | Training corpus for PoS tagging. The treebank consists of 10 million parsed sentences containing approximately 140 million words. | [GitHub](https://github.com/icelandic-lt/GreynirCorpus) | > 3 years | - | - | - | - |
-| Icelandic Pronunciation Dictionary | Dataset | The Icelandic Pronunciation Dictionary contains manually revised transcriptions in four pronunciation variants of Icelandic: the standard pronunciation, the northern post-aspiration variant ("harðmæli"), the north-eastern variant post-aspiration + voiced pronunciation, and the southern hv-variant. | [GitHub](https://github.com/icelandic-lt/iceprondict)<br>[Clarin.is](http://hdl.handle.net/20.500.12537/154) | 7 months | - | - | - | Add link to PEDI |
-| Icelandic Hyphenation Dictionary | Dataset | A hyphenated word list for Icelandic, and hyphenation patterns derived therefrom, based on data from Icelandic dictionaries and texts. | [GitHub](https://github.com/icelandic-lt/hyphenation-is)<br>[Clarin.is](http://hdl.handle.net/20.500.12537/86) | 4 years | - | - | - | - |
-| IGC | Dataset | The IGC-project (Icelandic Gigaword Corpus) aims to collect as much as possible of Icelandic texts that can be published, under an open or restricted licence. The project is divided into nine individual corpora. Each corpus comes in two versions. One contains the texts untokenized and untagged where each paragraph is contained inside of a `<p>` tag, while the other one has been tokenized, POS-tagged and lemmatized. | [Clarin.is](http://hdl.handle.net/20.500.12537/254) | 2022 | - | - | - | - |
-| DMII/BÍN | Dataset | This package contains the Comprehensive Format of The Database of Modern Icelandic Inflection - (DMII). DMII is a part of The Database of Icelandic Morphology (DIM). DIM is a multipurpose linguistic resource, created for use in language technology (LT), as a reference for the general public in Iceland, and for use in research on the Icelandic language.  | [Clarin.is](http://hdl.handle.net/20.500.12537/162) | 21.10 | - | - | - | - |
-| Valency structure database | Dataset | This package contains valency structures that are part of The Database of Icelandic Morphology (DIM) which is a multipurpose linguistic resource, created for use in language technology (LT), as a reference for the general public in Iceland, and for use in research on the Icelandic language. | [Clarin.is](http://hdl.handle.net/20.500.12537/163) | 21.09 | - | - | - | - |
-| DMII abbreviations | Dataset | A list of common abbreviations in Icelandic texts, with explanations and classification. | [Clarin.is](http://hdl.handle.net/20.500.12537/164) | 21.10 | - | - | - | - |
-| Icelandic Wordweb | Dataset | A single RDF file housing the Icelandic Wordweb in an LT-appropriate format. The Wordweb's features have been encoded with OntoLex and SKOS, with the new version designed in such a way as to replicate all core functionality of the original, and offer an extensive suite of new options for inspection and research.| [Clarin.is](http://hdl.handle.net/20.500.12537/117) | 21.06 | - | - | - | - |
-| ICC | Dataset | The Icelandic Crawled Corpus (ICC) contains approximately 930M tokens which have been scraped from a selection of Icelandic websites, including news sites, government websites and forums. The scraped text is presented in its original form, unannotated, untokenized and without deduplication. | [HuggingFace](https://huggingface.co/datasets/jonfd/ICC) | > 1 years | - | - | - | Move to Icelandic-LT Hugging Face site |
-| MIM-GOLD | Dataset | MIM-GOLD 21.05 is a gold standard for PoS-tagging and lemmatizing Icelandic texts. This new version contains the same texts as version 20.05 but lemmas have been added and some corrections have been made to the PoS-tagging. The gold standard contains approximately 1 million running words with manually annotated PoS-tags and lemmas. | [Clarin.is](http://hdl.handle.net/20.500.12537/113)<br>[Clarin.is](http://hdl.handle.net/20.500.12537/114) | 21.06 | - | - | - | - |
-| Icelandic Frequency Dictionary train/test | Dataset | Testing and training sets for pos-tagging from IFD 2020.05 (Icelandic Frequency Dictionary) which contains fragments from 100 texts, published between the years 1980 and 1989. | [Clarin.is](http://hdl.handle.net/20.500.12537/38) | - | - | - | - | - |
-| Icelandic Multi-SimLex | Dataset | MSL, short for Multi-SimLex, is an evaluation protocol and associated dataset for lexical semantics. The original English-language MSL builds on several older, well-known datasets, most notably SimLex-999, and has already been released in a dozen languages. A fully processed MSL dataset consists of 1,888 unordered word pairs, where each pair is tagged with grammatical categories and marked with a numerical score that indicates the words' semantic similarity. | [Clarin.is](http://hdl.handle.net/20.500.12537/121) | 21.06 | - | - | - | - |
-| IceBATS | Dataset | IceBATS is an Icelandic adaptation of the Bigger Analogy Test Set (BATS). BATS is intended to evaluate word embeddings based on word analogy tasks. This extensive set demonstrates a language model's ability to recognize various linguistic relations with the use of the vector offset method. | [Clarin.is](http://hdl.handle.net/20.500.12537/120) | 21.06 | - | - | - | - |
+* [Monolingual text corpora](#monolingual-text-corpora)
+* [Morphological resources](#morphological-resources)
+* [Part-of-Speech (PoS) tagging and parsing corpora](#part-of-speech-pos-tagging-and-parsing-corpora)
+* [Pronunciation tools and dictionaries](#pronunciation-tools-and-dictionaries)
+* [Word semantics and embeddings](#word-semantics-and-embeddings)
+
+---
+
+## Monolingual text corpora
+
+### Icelandic Gigaword Corpus (IGC)
+**Type:** Dataset  
+**Description:** The IGC-project (Icelandic Gigaword Corpus) aims to collect as much as possible of Icelandic texts that can be published, under an open or restricted licence. The project is divided into nine individual corpora. Each corpus comes in two versions. One contains the texts untokenized and untagged where each paragraph is contained inside of a `<p>` tag, while the other one has been tokenized, POS-tagged and lemmatized.  
+**Location:** [CLARIN-IS](http://hdl.handle.net/20.500.12537/254)  
+**Last update:** 2022
+
+### Icelandic Crawled Corpus (ICC)
+**Type:** Dataset  
+**Description:** The Icelandic Crawled Corpus (ICC) contains approximately 930M tokens which have been scraped from a selection of Icelandic websites, including news sites, government websites and forums. The scraped text is presented in its original form, unannotated, untokenized and without deduplication.  
+**Location:** [HuggingFace](https://huggingface.co/datasets/jonfd/ICC)  
+**Last update:** 2022  
+**Comment:** Move to Icelandic-LT HuggingFace site
+
+---
+
+## Morphological resources
+
+### DMII/BÍN
+**Type:** Dataset  
+**Description:** This package contains the Comprehensive Format of The Database of Modern Icelandic Inflection - (DMII). DMII is a part of The Database of Icelandic Morphology (DIM). DIM is a multipurpose linguistic resource, created for use in language technology (LT), as a reference for the general public in Iceland, and for use in research on the Icelandic language.  
+**Location:** [CLARIN-IS](http://hdl.handle.net/20.500.12537/162)  
+**Last update:** October 2021
+
+### Valency Structure Database
+**Type:** Dataset  
+**Description:** This package contains valency structures that are part of The Database of Icelandic Morphology (DIM) which is a multipurpose linguistic resource, created for use in language technology (LT), as a reference for the general public in Iceland, and for use in research on the Icelandic language.  
+**Location:** [CLARIN-IS](http://hdl.handle.net/20.500.12537/163)  
+**Last update:** September 2021
+
+### DMII Abbreviations
+**Type:** Dataset  
+**Description:** A list of common abbreviations in Icelandic texts, with explanations and classification.  
+**Location:** [CLARIN-IS](http://hdl.handle.net/20.500.12537/164)  
+**Last update:** October 2021
+
+### Icelandic Hyphenation Dictionary
+**Type:** Dataset  
+**Description:** A hyphenated word list for Icelandic, and hyphenation patterns derived therefrom, based on data from Icelandic dictionaries and texts.  
+**Location:** [GitHub](https://github.com/icelandic-lt/hyphenation-is), [CLARIN-IS](http://hdl.handle.net/20.500.12537/86)  
+**Last update:** 2020
+
+---
+
+## Part-of-Speech (PoS) tagging and parsing corpora
+
+### MIM-GOLD
+**Type:** Dataset  
+**Description:** MIM-GOLD 21.05 is a gold standard for PoS-tagging and lemmatizing Icelandic texts. This new version contains the same texts as version 20.05 but lemmas have been added and some corrections have been made to the PoS-tagging. The gold standard contains approximately 1 million running words with manually annotated PoS-tags and lemmas.  
+**Location:** [CLARIN-IS](http://hdl.handle.net/20.500.12537/113), [CLARIN-IS](http://hdl.handle.net/20.500.12537/114)  
+**Last update:** June 2021
+
+### GreynirCorpus
+**Type:** Dataset  
+**Description:** Training corpus for constituency parsing and PoS tagging.
+The treebank consists of 10 million parsed sentences containing approximately
+140 million words.  
+**Location:** [GitHub](https://github.com/icelandic-lt/GreynirCorpus)  
+**Last update:** 2021
+
+### Icelandic Frequency Dictionary Train/Test
+**Type:** Dataset  
+**Description:** Testing and training sets for PoS tagging from IFD 2020.05 (Icelandic Frequency Dictionary) which contains fragments from 100 texts, published between the years 1980 and 1989.  
+**Location:** [CLARIN-IS](http://hdl.handle.net/20.500.12537/38)  
+**Last update:** 2020
+
+---
+
+## Pronunciation tools and dictionaries
+
+### Pedi
+**Type:** Software  
+**Description:** Pedi is a web application to read, edit and export pronunciation dictionaries. It has been used to create the Icelandic Pronunciation Dictionary.  
+**Location:** [GitHub](https://github.com/icelandic-lt/pedi)  
+**Last update:** May 2024
+
+### Icelandic Pronunciation Dictionary
+**Type:** Dataset  
+**Description:** The Icelandic Pronunciation Dictionary contains manually revised transcriptions in four pronunciation variants of Icelandic: the standard pronunciation, the northern post-aspiration variant ("harðmæli"), the north-eastern variant post-aspiration + voiced pronunciation, and the southern hv-variant.  
+**Location:** [GitHub](https://github.com/icelandic-lt/iceprondict), [CLARIN-IS](http://hdl.handle.net/20.500.12537/154)  
+**Last update:** October 2023
+
+---
+
+## Word semantics and embeddings
+
+### Icelandic Wordweb
+**Type:** Dataset  
+**Description:** A single RDF file housing the Icelandic Wordweb in an LT-appropriate format. The Wordweb's features have been encoded with OntoLex and SKOS, with the new version designed in such a way as to replicate all core functionality of the original, and offer an extensive suite of new options for inspection and research.  
+**Location:** [CLARIN-IS](http://hdl.handle.net/20.500.12537/117)  
+**Last update:** June 2021
+
+### Icelandic Multi-SimLex
+**Type:** Dataset  
+**Description:** MSL, short for Multi-SimLex, is an evaluation protocol and associated dataset for lexical semantics. The original English-language MSL builds on several older, well-known datasets, most notably SimLex-999, and has already been released in a dozen languages. A fully processed MSL dataset consists of 1,888 unordered word pairs, where each pair is tagged with grammatical categories and marked with a numerical score that indicates the words' semantic similarity.  
+**Location:** [CLARIN-IS](http://hdl.handle.net/20.500.12537/121)  
+**Last update:** June 2021
+
+### IceBATS
+**Type:** Dataset  
+**Description:** IceBATS is an Icelandic adaptation of the Bigger Analogy Test Set (BATS). BATS is intended to evaluate word embeddings based on word analogy tasks. This extensive set demonstrates a language model's ability to recognize various linguistic relations with the use of the vector offset method.  
+**Location:** [CLARIN-IS](http://hdl.handle.net/20.500.12537/120)  
+**Last update:** June 2021

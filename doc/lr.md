@@ -32,7 +32,7 @@ They are categorized into the following groups:
 **Description:** The Icelandic Crawled Corpus (ICC) contains approximately 930M tokens which have been scraped from a selection of Icelandic websites, including news sites, government websites and forums. The scraped text is presented in its original form, unannotated, untokenized and without deduplication.  
 **Location:** [HuggingFace](https://huggingface.co/datasets/jonfd/ICC)  
 **Last update:** 2022  
-**Comment:** Move to Icelandic-LT HuggingFace site
+*Comment/TBD: Move to Icelandic-LT HuggingFace site*
 
 ---
 
@@ -98,7 +98,7 @@ The treebank consists of 10 million parsed sentences containing approximately
 ## Pronunciation tools and dictionaries
 
 ### Pedi
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)  
 **Type:** Software  
 **Description:** Pedi is a web application to read, edit and export pronunciation dictionaries. It has been used to create the Icelandic Pronunciation Dictionary.  
 **Location:** [GitHub](https://github.com/icelandic-lt/pedi)  

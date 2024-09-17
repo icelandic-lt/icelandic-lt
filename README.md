@@ -48,37 +48,37 @@ In the Icelandic LT program, we have addressed the following LT categories:
 
 Language Resources are general resources needed by many language technology domains. These are mostly datasets, lexica, corpora & dictionaries. More specific datasets & dictionaries can be found under their respective category.
 
-Browse [Language resources](doc/lr.md)
+Browse [Language resources](https://github.com/icelandic-lt/icelandic-lt/blob/main/doc/lr.md)
 
 ### ASR (Automatic Speech Recognition)
 
 ASR, also known as Speech-to-Text (STT), is the technology that converts spoken words into written text. It aims to mimic the human ability to listen and transcribe spoken words. Related technologies include speaker diarization, which segments audio recordings by speaker labels to determine "who spoke when".
 
-Browse [ASR resources](doc/asr.md)
+Browse [ASR resources](https://github.com/icelandic-lt/icelandic-lt/blob/main/doc/asr.md)
 
 ### Machine Translation
 
 Machine Translation is the process of automatically translating text from one natural language to another using computer applications.
 
-Browse [Machine Translation resources](doc/mt.md)
+Browse [Machine Translation resources](https://github.com/icelandic-lt/icelandic-lt/blob/main/doc/mt.md)
 
 ### Support Tools
 
 General NLP tools (tokenizer, tagger, parser) that are often used as part of LT pipelines.
 
-Browse [Support Tools](doc/st.md)
+Browse [Support Tools](https://github.com/icelandic-lt/icelandic-lt/blob/main/doc/st.md)
 
 ### Spell and Grammar Checking
 
 Spelling and Grammar Checkers are computer programs that identify apparent misspellings and grammatical errors in text.
 
-Browse [Spell and Grammar Checking resources](doc/sc.md)
+Browse [Spell and Grammar Checking resources](https://github.com/icelandic-lt/icelandic-lt/blob/main/doc/sc.md)
 
 ### TTS (Text-to-Speech)
 
 Text-to-Speech (TTS) is the task of generating natural-sounding speech from text input. TTS models can be used in any speech-enabled application that requires converting text to speech imitating human voice.
 
-Browse [Text-to-Speech resources](doc/tts.md)
+Browse [Text-to-Speech resources](https://github.com/icelandic-lt/icelandic-lt/blob/main/doc/tts.md)
 
 ## License
 

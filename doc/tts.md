@@ -2,7 +2,66 @@
 
 ### Overview
 
-`to be done`
+The following TTS datasets and tools are deliverables from the Icelandic Language Technology
+Programme 2018-2022 (LT-Programme).
+
+They are categorized into the following groups:
+
+* [Datasets](#datasets)
+
+---
+
+## Datasets
+
+### Homograph Corpus
+
+[![CC-BY-4.0 License](https://img.shields.io/badge/License-CC--BY--4.0-blue)](https://creativecommons.org/licenses/by/4.0/)  
+**Type:** Dataset  
+**Description:** This labeled corpus of Icelandic homographs contains a list of all labeled homographs and a corpus of sentences extracted from a selection of the Icelandic Gigaword Corpus (IGC-2022 - annotated version), containing these homographs, labeled by pronunciation.  
+**Location:** [CLARIN-IS](http://hdl.handle.net/20.500.12537/327)  
+**Last update:** 24.04  
+
+### Text normalization corpus
+
+[![CC-BY-4.0 License](https://img.shields.io/badge/License-CC--BY--4.0-blue)](https://creativecommons.org/licenses/by/4.0/)  
+**Type:** Dataset  
+**Description:** A corpus of 70,000 sentences taken from general text, both before normalization and normalized using Regína normalizer; 70,000 sentences taken from sports news, both before normalization and normalized using Regína normalizer; 40,000 sentences taken from all domains, manually normalized.  
+**Location:** [CLARIN-IS](http://hdl.handle.net/20.500.12537/158)  
+**Last update:** 21.10  
+
+### Talrómur 1
+
+[![CC-BY-4.0 License](https://img.shields.io/badge/License-CC--BY--4.0-blue)](https://creativecommons.org/licenses/by/4.0/)  
+**Type:** Dataset  
+**Description:** A speech corpus with 122,417 short audio clips of 8 different speakers reading short sentences. Audio files are resampled into the format 22kHz, 16bit RIFF.  
+**Location:** [CLARIN-IS](http://hdl.handle.net/20.500.12537/104)  
+**Last update:** 21.02  
+
+### Talrómur 2
+
+[![CC-BY-4.0 License](https://img.shields.io/badge/License-CC--BY--4.0-blue)](https://creativecommons.org/licenses/by/4.0/)  
+**Type:** Dataset  
+**Description:** A speech corpus with 56,225 audio clips of forty different speakers reading short sentences. Audio files are resampled into the format 22kHz, 16bit RIFF.  
+**Location:** [CLARIN-IS](http://hdl.handle.net/20.500.12537/298)  
+**Last update:** 22.10  
+
+### Talrómur 1 RAW
+
+[![CC-BY-4.0 License](https://img.shields.io/badge/License-CC--BY--4.0-blue)](https://creativecommons.org/licenses/by/4.0/)  
+**Type:** Dataset  
+**Description:** 48kHz, 16bit FLAC version of Talrómur 1 speech corpus (21.02), unprocessed and unselected.  
+**Location:** [CLARIN-IS](http://hdl.handle.net/20.500.12537/322)  
+**Last update:** 24.01  
+
+### TTS Intelligibility test set
+
+[![CC-BY-4.0 License](https://img.shields.io/badge/License-CC--BY--4.0-blue)](https://creativecommons.org/licenses/by/4.0/)  
+**Type:** Dataset  
+**Description:** This test set contains sentences for intelligibility testing of a TTS system. It is a set of 50 sentences where each sentence occurs twice: once in its correct version and once containing one spelling error. Half of the 50 sentences are constructed in the form of Semantically Unpredictable Sentences (SUS) and the other half consists of sentences extracted from the Icelandic Error Corpus and from development data for a text normalizer.  
+**Location:** [CLARIN-IS](http://hdl.handle.net/20.500.12537/182)  
+**Last update:** 22.01  
+
+---
 
 ### Projects
 
@@ -36,9 +95,3 @@
 | GlowTTS Talrómur 1 voice models | Model | GlowTTS models for four different voices from the Talrómur 1 corpus. The models were trained using the Coqui TTS library after it was adapted for Icelandic. | [Clarin.is](http://hdl.handle.net/20.500.12537/293) | - | - | - | Partially | No dataset preparation scripts |
 | Multi-Speaker GlowTTS Talrómur 2 voice model | Model | This release includes a partially trained multi-speaker model using the GlowTTS architecture in the Coqui TTS library. The model is trained on all of the speakers in the Talrómur 2 corpus. | [Clarin.is](http://hdl.handle.net/20.500.12537/293) | - | - | - | Partially | No dataset preparation scripts |
 | Talrómur 2 ESPnet Xvector Tacotron2 model | Model | - | [HuggingFace](https://huggingface.co/espnet/talromur2_xvector_tacotron2) | > 1 years | - | - | NO | No description, training scripts, etc. |
-| Talrómur 1 | Dataset | A speech corpus with 122,417 short audio clips of 8 different speakers reading short sentences. Audio files are resampled into the format 22kHz, 16bit RIFF. | [Clarin.is](http://hdl.handle.net/20.500.12537/104) | 21.02 | - | - | - | - |
-| Talrómur 2 | Dataset | A speech corpus with 56,225 audio clips of forty different speakers reading short sentences. Audio files are resampled into the format 22kHz, 16bit RIFF. | [Clarin.is](http://hdl.handle.net/20.500.12537/298) | 22.10 | - | - | - | - |
-| Talrómur 1 RAW | Dataset | 48kHz, 16bit FLAC version of Talrómur 1 speech corpus (21.02), unprocessed and unselected | [Clarin.is](http://hdl.handle.net/20.500.12537/322) | 24.01 | - | - | - | - |
-| TTS Intelligibility test set | Dataset | This test set contains sentences for intelligibility testing of a TTS system. It is a set of 50 sentences where each sentence occurs twice: once in its correct version and once containing one spelling error. Half of the 50 sentences are constructed in the form of Semantically Unpredictable Sentences (SUS) and the other half consists of sentences extracted from the Icelandic Error Corpus and from development data for a text normalizer. | [Clarin.is](http://hdl.handle.net/20.500.12537/182) | 22.01 | - | - | - | - |
-| Homograph Corpus | Dataset | This labeled corpus of Icelandic homographs contains a list of all labeled homographs and a corpus of sentences extracted from a selection of the Icelandic Gigaword Corpus (IGC-2022 - annotated version), containing these homographs, labeled by pronunciation. | [Clarin.is](http://hdl.handle.net/20.500.12537/327) | 24.04 | - | - | - | - |
-| Text normalization corpus | Dataset | A corpus of 70,000 sentences taken from general text, both before normalization and normalized using Regína normalizer; 70,000 sentences taken from sports news, both before normalization and normalized using Regína normalizer; 40,000 sentences taken from all domains, manually normalized | [Clarin.is](http://hdl.handle.net/20.500.12537/158) | 21.10 | - | - | - | - |

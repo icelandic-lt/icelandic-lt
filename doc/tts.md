@@ -8,6 +8,7 @@ Programme 2018-2022 (LT-Programme).
 They are categorized into the following groups:
 
 * [Datasets](#datasets)
+* [Tools](#tools)
 
 ---
 
@@ -25,7 +26,7 @@ They are categorized into the following groups:
 
 [![CC-BY-4.0 License](https://img.shields.io/badge/License-CC--BY--4.0-blue)](https://creativecommons.org/licenses/by/4.0/)  
 **Type:** Dataset  
-**Description:** A corpus of 70,000 sentences taken from general text, both before normalization and normalized using Regína normalizer; 70,000 sentences taken from sports news, both before normalization and normalized using Regína normalizer; 40,000 sentences taken from all domains, manually normalized.  
+**Description:** A corpus of 70,000 sentences taken from general text, both before normalization and normalized using the [Regína normalizer](https://github.com/icelandic-lt/regina_normalizer); 70,000 sentences taken from sports news, both before normalization and normalized using the [Regína normalizer](https://github.com/icelandic-lt/regina_normalizer); 40,000 sentences taken from all domains, manually normalized.  
 **Location:** [CLARIN-IS](http://hdl.handle.net/20.500.12537/158)  
 **Last update:** 21.10  
 
@@ -63,6 +64,34 @@ They are categorized into the following groups:
 
 ---
 
+## Tools
+
+### Regína normalizer
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)  
+**Type:** Software  
+**Description:** Text normalizer for TTS based on regular expressions.  
+**Location:** [GitHub](https://github.com/icelandic-lt/regina_normalizer)  
+**Last update:** 22.04
+
+### Phrasing tool
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)  
+**Type:** Software  
+**Description:** Tool for adding pauses in text for more natural speech.  
+**Location:** [GitHub](https://github.com/icelandic-lt/phrasing-tool)  
+**Last update:** 22.02
+
+### TTS data preparation
+
+[![Apache-2.0 License](https://img.shields.io/badge/License-Apache--2.0-blue)](https://opensource.org/licenses/Apache-2.0)  
+**Type:** Software  
+**Description:** Module for preparing text data for TTS data collections, specifically for the Icelandic language.  
+**Location:** [GitHub](https://github.com/icelandic-lt/tts_data)  
+**Last update:** 20.01
+
+---
+
 ### Projects
 
 | Project-name | Type | <div style="width:350px"/> Description | <div style="width:100px"/> Location | Last update (05.24) | Status | Buildable | Model reproducable ? | Comment |
@@ -77,14 +106,11 @@ They are categorized into the following groups:
 | Tiro-TTS | Software | TTS RESTful service in Python for serving fastspeech2 voice models as well as Amazon Polly voices | [GitHub](https://github.com/icelandic-lt/tiro-tts)<br>[Clarin.is](http://hdl.handle.net/20.500.12537/268) | 2 years | - | - | - | - |
 | LOBE | Software | Recording client made specifically for TTS data collections | [GitHub](https://github.com/icelandic-lt/LOBE) | 2 years | - | - | - | - |
 | Text cleaner | Software | Text cleaning module for processing raw text input. This module is a component of a TTS-Frontend engine, more specifically, it is the first step in processing raw text input before being normalized in the next step in the TTS-Frontend pipeline. | [GitHub](https://github.com/icelandic-lt/text-cleaner) | 2 years | - | - | - | - |
-| Phrasing tool | Software | Tool for adding pauses in text for more natural speech. | [GitHub](https://github.com/icelandic-lt/phrasing-tool) | 3 years | - | - | - | - |
-| Regina | Software | Text normalizer for TTS based on regular expressions. | [GitHub](https://github.com/icelandic-lt/regina_normalizer) | 2 years | - | - | - | - |
 | TTS frontend pipeline | Software | This project provides a TTS textprocessing pipeline for Icelandic. The pipeline includes modules for html parsing, text cleaning, text normalization for TTS, spell and grammar correction, phrasing, and grapheme-to-phoneme (g2p) conversion. | [GitHub](https://github.com/icelandic-lt/tts-frontend)<br>[Clarin.is](http://hdl.handle.net/20.500.12537/279) | 1 years | - | - | - | - |
 | TTS frontend service | Software | gRPC service for the TTS frontend pipeline to provide the service in server environments as part of a network-based TTS system | [GitHub](https://github.com/icelandic-lt/tts-frontend-service) | 2 years | - | - | - | - |
 | TTS frontend API | Software | gRPC service definitions for the TTS frontend preprocessing pipeline | [GitHub](https://github.com/icelandic-lt/tts-frontend-api) | 3 years | - | - | - | - |
 | WebRICE | Software | The Webrice Chrome browser plugin is a software add-on that gives people access to listen to text on web pages. It is interfacing with a Tiro-TTS service over Internet | [GitHub](https://github.com/icelandic-lt/webrice-chrome-extension)<br>[Clarin.is](http://hdl.handle.net/20.500.12537/261) | 2 years | - | - | - | - |
 | Document reader | Software | Document reader web application that interfaces to a Tiro-TTS service via network | [GitHub](https://github.com/icelandic-lt/tts_webapp)<br>[Clarin.is](http://hdl.handle.net/20.500.12537/282) | 2 years | - | - | - | - |
-| TTS prepare data | Software | Module for preparing text data for TTS data collections, specifically for the Icelandic language. | [GitHub](https://github.com/icelandic-lt/tts_data) | 5 years | - | - | - | - |
 | Tacotron2 and Fastspeech2 recipes | Software | Tacotron2 and Fastspeech2 recipes within the official ESPnet TTS project. This is a fork of ESPnet with updated recipes. | [GitHub](https://github.com/icelandic-lt/espnet) | - | - | - | - | - |
 | Álfur hratt | Model | FLite voice, based on the Festival Recipe, for usage in Símarómur up to v1.3. It is considered deprecated now, as FLite voices are not supported anymore in Símarómur. | [GitHub](https://github.com/grammatek/simaromur_voices/releases/tag/0.2) | 22.11 | - | - | YES | trainable via unit-selection-festival project |
 | Steinn - Símarómur | Model | VITS model for Símarómur, based on Piper TTS training pipeline. This is the current voice used for the Android App Símarómur. | [GitHub](https://github.com/icelandic-lt/simaromur_voices)<br>[Clarin.is](http://hdl.handle.net/20.500.12537/312) | 4 months | - | - | YES | - |

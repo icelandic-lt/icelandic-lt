@@ -9,6 +9,7 @@ They are categorized into the following groups:
 
 * [Datasets](#datasets)
 * [Tools](#tools)
+* [Models](#models)
 
 ---
 
@@ -92,6 +93,84 @@ They are categorized into the following groups:
 
 ---
 
+## Models
+
+### Álfur hratt
+
+[![GitHub](https://img.shields.io/badge/GitHub-grammatek%2Fsimaromur__voices%2Freleases%2Ftag%2F0.2-blue)](https://github.com/grammatek/simaromur_voices/releases/tag/0.2)  
+**Type:** Model  
+**Description:** FLite voice, based on the Festival Recipe, for usage in Símarómur up to v1.3. It is considered deprecated now, as FLite voices are not supported anymore in Símarómur.  
+**Location:** [GitHub](https://github.com/grammatek/simaromur_voices/releases/tag/0.2)  
+**Last update:** 22.11  
+
+### Steinn - Símarómur
+
+[![GitHub](https://img.shields.io/badge/GitHub-icelandic--lt%2Fsimaromur__voices-green)](https://github.com/icelandic-lt/simaromur_voices)  
+[![Clarin.is](https://img.shields.io/badge/Clarin.is-http%3A%2F%2Fhdl.handle.net%2F20.500.12537%2F312-blue)](http://hdl.handle.net/20.500.12537/312)  
+**Type:** Model  
+**Description:** VITS model for Símarómur, based on Piper TTS training pipeline. This is the current voice used for the Android App Símarómur.  
+**Location:** [GitHub](https://github.com/icelandic-lt/simaromur_voices)  
+**Last update:** 4 months  
+
+### IceHoC
+
+[![GitHub](https://img.shields.io/badge/GitHub-icelandic--lt%2FIceHoc-green)](https://github.com/icelandic-lt/IceHoc)  
+[![Clarin.is](https://img.shields.io/badge/Clarin.is-http%3A%2F%2Fhdl.handle.net%2F20.500.12537%2F329-blue)](http://hdl.handle.net/20.500.12537/329)  
+**Type:** Model  
+**Description:** IceHoC is a binary classifier for Icelandic homographs. The repository contains all training code as well as the models and uses the Icelandic Homograph Corpus  
+**Location:** [GitHub](https://github.com/icelandic-lt/IceHoc)  
+**Last update:** 2 months  
+
+### Thrax G2P
+
+[![GitHub](https://img.shields.io/badge/GitHub-icelandic--lt%2Fg2p--thrax-green)](https://github.com/icelandic-lt/g2p-thrax)  
+**Type:** Model  
+**Description:** G2P grammar, models & runtime system in C++ for Edge-device usage (e.g. iOS, Android). This G2P system is a much faster but also less accurate G2P system in comparison to IceG2P.  
+**Location:** [GitHub](https://github.com/icelandic-lt/g2p-thrax)  
+**Last update:** 3 years  
+
+### G2P LSTM model
+
+[![GitHub](https://img.shields.io/badge/GitHub-icelandic--lt%2Fg2p--lstm-green)](https://github.com/icelandic-lt/g2p-lstm)  
+**Type:** Model  
+**Description:** LSTM encoder-decoder sequence-to-sequence models, trained for Icelandic G2P. The models were trained using the baseline for the Sigmorphon 2020 Shared task in multilingual G2P, with manually transcribed training data of ~5,800 words per pronunciation variant. This is the model for IceG2P.  
+**Location:** [GitHub](https://github.com/icelandic-lt/g2p-lstm)  
+**Last update:** 3 years ago  
+
+### Talrómur 1 ESPnet Fastspeech2, Tacotron2 models
+
+[![Clarin.is](https://img.shields.io/badge/Clarin.is-http%3A%2F%2Fhdl.handle.net%2F20.500.12537%2F294-blue)](http://hdl.handle.net/20.500.12537/294)  
+**Type:** Model  
+**Description:** This release contains TTS models for all 8 voices from Talrómur 1, intended for use with the ESPNet toolkit. The models are trained using fully phonemized, stress-annotated inputs including syllable boundary markers ('.') and word boundary markers (','), obtainable using IceG2P. The training recipes are included in the 202207 version of the toolkit.  
+**Location:** [Clarin.is](http://hdl.handle.net/20.500.12537/294)  
+**Last update:** 22.10  
+
+### GlowTTS Talrómur 1 voice models
+
+[![Clarin.is](https://img.shields.io/badge/Clarin.is-http%3A%2F%2Fhdl.handle.net%2F20.500.12537%2F293-blue)](http://hdl.handle.net/20.500.12537/293)  
+**Type:** Model  
+**Description:** GlowTTS models for four different voices from the Talrómur 1 corpus. The models were trained using the Coqui TTS library after it was adapted for Icelandic.  
+**Location:** [Clarin.is](http://hdl.handle.net/20.500.12537/293)  
+**Last update:** -  
+
+### Multi-Speaker GlowTTS Talrómur 2 voice model
+
+[![Clarin.is](https://img.shields.io/badge/Clarin.is-http%3A%2F%2Fhdl.handle.net%2F20.500.12537%2F293-blue)](http://hdl.handle.net/20.500.12537/293)  
+**Type:** Model  
+**Description:** This release includes a partially trained multi-speaker model using the GlowTTS architecture in the Coqui TTS library. The model is trained on all of the speakers in the Talrómur 2 corpus.  
+**Location:** [Clarin.is](http://hdl.handle.net/20.500.12537/293)  
+**Last update:** -  
+
+### Talrómur 2 ESPnet Xvector Tacotron2 model
+
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-espnet%2Ftalromur2__xvector__tacotron2-green)](https://huggingface.co/espnet/talromur2_xvector_tacotron2)  
+**Type:** Model  
+**Description:** -  
+**Location:** [HuggingFace](https://huggingface.co/espnet/talromur2_xvector_tacotron2)  
+**Last update:** > 1 years  
+
+---
+
 ### Projects
 
 | Project-name | Type | <div style="width:350px"/> Description | <div style="width:100px"/> Location | Last update (05.24) | Status | Buildable | Model reproducable ? | Comment |
@@ -121,3 +200,4 @@ They are categorized into the following groups:
 | GlowTTS Talrómur 1 voice models | Model | GlowTTS models for four different voices from the Talrómur 1 corpus. The models were trained using the Coqui TTS library after it was adapted for Icelandic. | [Clarin.is](http://hdl.handle.net/20.500.12537/293) | - | - | - | Partially | No dataset preparation scripts |
 | Multi-Speaker GlowTTS Talrómur 2 voice model | Model | This release includes a partially trained multi-speaker model using the GlowTTS architecture in the Coqui TTS library. The model is trained on all of the speakers in the Talrómur 2 corpus. | [Clarin.is](http://hdl.handle.net/20.500.12537/293) | - | - | - | Partially | No dataset preparation scripts |
 | Talrómur 2 ESPnet Xvector Tacotron2 model | Model | - | [HuggingFace](https://huggingface.co/espnet/talromur2_xvector_tacotron2) | > 1 years | - | - | NO | No description, training scripts, etc. |
+

@@ -47,6 +47,14 @@ They are categorized into the following groups:
 **Location:** [CLARIN-IS](http://hdl.handle.net/20.500.12537/298)  
 **Last update:** 22.10  
 
+### Talrómur 3
+
+[![CC-BY-4.0 License](https://img.shields.io/badge/License-CC--BY--4.0-blue)](https://creativecommons.org/licenses/by/4.0/)  
+**Type:** Dataset  
+**Description:** An emotional speech corpus with 15,078 audio clips of 7 different speakers reading short sentences with varying emotional intensity levels. Audio files are in 48kHz, 24bit FLAC. Corpus preparation scripts are provided on GitHub.<br>
+**Locations:** [CLARIN-IS not yet published](?), [GitHub](https://github.com/icelandic-lt/emospeech-scripts)<br>
+**Last update:** 24.09
+
 ### Talrómur 1 RAW
 
 [![CC-BY-4.0 License](https://img.shields.io/badge/License-CC--BY--4.0-blue)](https://creativecommons.org/licenses/by/4.0/)  

@@ -97,77 +97,75 @@ They are categorized into the following groups:
 
 ### Álfur hratt
 
-[![GitHub](https://img.shields.io/badge/GitHub-grammatek%2Fsimaromur__voices%2Freleases%2Ftag%2F0.2-blue)](https://github.com/grammatek/simaromur_voices/releases/tag/0.2)  
+[![Apache-2.0 License](https://img.shields.io/badge/License-Apache--2.0-blue)](https://opensource.org/licenses/Apache-2.0)  
 **Type:** Model  
 **Description:** FLite voice, based on the Festival Recipe, for usage in Símarómur up to v1.3. It is considered deprecated now, as FLite voices are not supported anymore in Símarómur.  
-**Location:** [GitHub](https://github.com/grammatek/simaromur_voices/releases/tag/0.2)  
+**Location:** [GitHub](https://github.com/icelandic-lt/simaromur_voices/releases/tag/0.2)  
 **Last update:** 22.11  
 
 ### Steinn - Símarómur
 
-[![GitHub](https://img.shields.io/badge/GitHub-icelandic--lt%2Fsimaromur__voices-green)](https://github.com/icelandic-lt/simaromur_voices)  
-[![Clarin.is](https://img.shields.io/badge/Clarin.is-http%3A%2F%2Fhdl.handle.net%2F20.500.12537%2F312-blue)](http://hdl.handle.net/20.500.12537/312)  
+[![Apache-2.0 License](https://img.shields.io/badge/License-Apache--2.0-blue)](https://opensource.org/licenses/Apache-2.0)  
 **Type:** Model  
 **Description:** VITS model for Símarómur, based on Piper TTS training pipeline. This is the current voice used for the Android App Símarómur.  
-**Location:** [GitHub](https://github.com/icelandic-lt/simaromur_voices)  
-**Last update:** 4 months  
+**Location:** [GitHub](https://github.com/icelandic-lt/simaromur_voices), [CLARIN-IS](http://hdl.handle.net/20.500.12537/312)  
+**Last update:** 24.02
 
 ### IceHoC
 
-[![GitHub](https://img.shields.io/badge/GitHub-icelandic--lt%2FIceHoc-green)](https://github.com/icelandic-lt/IceHoc)  
-[![Clarin.is](https://img.shields.io/badge/Clarin.is-http%3A%2F%2Fhdl.handle.net%2F20.500.12537%2F329-blue)](http://hdl.handle.net/20.500.12537/329)  
+[![Apache-2.0 License](https://img.shields.io/badge/License-Apache--2.0-blue)](https://opensource.org/licenses/Apache-2.0)  
 **Type:** Model  
 **Description:** IceHoC is a binary classifier for Icelandic homographs. The repository contains all training code as well as the models and uses the Icelandic Homograph Corpus  
-**Location:** [GitHub](https://github.com/icelandic-lt/IceHoc)  
-**Last update:** 2 months  
+**Location:** [GitHub](https://github.com/icelandic-lt/IceHoc), [CLARIN-IS](http://hdl.handle.net/20.500.12537/329)  
+**Last update:** 24.04
 
 ### Thrax G2P
 
-[![GitHub](https://img.shields.io/badge/GitHub-icelandic--lt%2Fg2p--thrax-green)](https://github.com/icelandic-lt/g2p-thrax)  
+[![Apache-2.0 License](https://img.shields.io/badge/License-Apache--2.0-blue)](https://opensource.org/licenses/Apache-2.0)  
 **Type:** Model  
 **Description:** G2P grammar, models & runtime system in C++ for Edge-device usage (e.g. iOS, Android). This G2P system is a much faster but also less accurate G2P system in comparison to IceG2P.  
 **Location:** [GitHub](https://github.com/icelandic-lt/g2p-thrax)  
-**Last update:** 3 years  
+**Last update:** 24.06
 
 ### G2P LSTM model
 
-[![GitHub](https://img.shields.io/badge/GitHub-icelandic--lt%2Fg2p--lstm-green)](https://github.com/icelandic-lt/g2p-lstm)  
+[![Apache-2.0 License](https://img.shields.io/badge/License-Apache--2.0-blue)](https://opensource.org/licenses/Apache-2.0)  
 **Type:** Model  
 **Description:** LSTM encoder-decoder sequence-to-sequence models, trained for Icelandic G2P. The models were trained using the baseline for the Sigmorphon 2020 Shared task in multilingual G2P, with manually transcribed training data of ~5,800 words per pronunciation variant. This is the model for IceG2P.  
 **Location:** [GitHub](https://github.com/icelandic-lt/g2p-lstm)  
-**Last update:** 3 years ago  
+**Last update:** 24.09
 
 ### Talrómur 1 ESPnet Fastspeech2, Tacotron2 models
 
-[![Clarin.is](https://img.shields.io/badge/Clarin.is-http%3A%2F%2Fhdl.handle.net%2F20.500.12537%2F294-blue)](http://hdl.handle.net/20.500.12537/294)  
+[![CC-BY-4.0 License](https://img.shields.io/badge/License-CC--BY--4.0-blue)](https://creativecommons.org/licenses/by/4.0/)  
 **Type:** Model  
 **Description:** This release contains TTS models for all 8 voices from Talrómur 1, intended for use with the ESPNet toolkit. The models are trained using fully phonemized, stress-annotated inputs including syllable boundary markers ('.') and word boundary markers (','), obtainable using IceG2P. The training recipes are included in the 202207 version of the toolkit.  
-**Location:** [Clarin.is](http://hdl.handle.net/20.500.12537/294)  
+**Location:** [CLARIN-IS](http://hdl.handle.net/20.500.12537/294)  
 **Last update:** 22.10  
 
 ### GlowTTS Talrómur 1 voice models
 
-[![Clarin.is](https://img.shields.io/badge/Clarin.is-http%3A%2F%2Fhdl.handle.net%2F20.500.12537%2F293-blue)](http://hdl.handle.net/20.500.12537/293)  
+[![CC-BY-4.0 License](https://img.shields.io/badge/License-CC--BY--4.0-blue)](https://creativecommons.org/licenses/by/4.0/)  
 **Type:** Model  
 **Description:** GlowTTS models for four different voices from the Talrómur 1 corpus. The models were trained using the Coqui TTS library after it was adapted for Icelandic.  
-**Location:** [Clarin.is](http://hdl.handle.net/20.500.12537/293)  
-**Last update:** -  
+**Location:** [CLARIN-IS](http://hdl.handle.net/20.500.12537/293)  
+**Last update:** 22.10
 
 ### Multi-Speaker GlowTTS Talrómur 2 voice model
 
-[![Clarin.is](https://img.shields.io/badge/Clarin.is-http%3A%2F%2Fhdl.handle.net%2F20.500.12537%2F293-blue)](http://hdl.handle.net/20.500.12537/293)  
+[![CC-BY-4.0 License](https://img.shields.io/badge/License-CC--BY--4.0-blue)](https://creativecommons.org/licenses/by/4.0/)  
 **Type:** Model  
 **Description:** This release includes a partially trained multi-speaker model using the GlowTTS architecture in the Coqui TTS library. The model is trained on all of the speakers in the Talrómur 2 corpus.  
-**Location:** [Clarin.is](http://hdl.handle.net/20.500.12537/293)  
-**Last update:** -  
+**Location:** [CLARIN-IS](http://hdl.handle.net/20.500.12537/293)  
+**Last update:** 22.10
 
 ### Talrómur 2 ESPnet Xvector Tacotron2 model
 
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-espnet%2Ftalromur2__xvector__tacotron2-green)](https://huggingface.co/espnet/talromur2_xvector_tacotron2)  
+[![CC-BY-4.0 License](https://img.shields.io/badge/License-CC--BY--4.0-blue)](https://creativecommons.org/licenses/by/4.0/)  
 **Type:** Model  
-**Description:** -  
+**Description:** This model was trained using the talromur2 recipe in ESPnet.  
 **Location:** [HuggingFace](https://huggingface.co/espnet/talromur2_xvector_tacotron2)  
-**Last update:** > 1 years  
+**Last update:** 2022  
 
 ---
 
@@ -176,28 +174,19 @@ They are categorized into the following groups:
 | Project-name | Type | <div style="width:350px"/> Description | <div style="width:100px"/> Location | Last update (05.24) | Status | Buildable | Model reproducable ? | Comment |
 |--------------|------|-------------|----------|---------------------|--------|-----------|----------------------|---------|
 | unit-selection-festival | Software | Festival Recipe for generating unit selection voice for the Festival speech system | [GitHub](https://github.com/cadia-lvl/unit-selection-festival/) | 3 years | - | - | - | - |
-| FastSpeech2 recipe | Software | This is a fork of the original repository for "FastSpeech 2: Fast and High-Quality End-to-End Text to Speech" for Icelandic. | [GitHub](https://github.com/icelandic-lt/FastSpeech2)<br>[Clarin.is](http://hdl.handle.net/20.500.12537/201) | 22.03 | - | - | - | - |
-| GlowTTS Recipe | Software | Port of Coqui-ai TTS to Icelandic to produce multispeaker GlowTTS voice | [GitHub](https://github.com/icelandic-lt/coqui-ai-TTS)<br>[Clarin.is](http://hdl.handle.net/20.500.12537/293)<br>[Clarin.is](http://hdl.handle.net/20.500.12537/292) | 22.10 | - | - | - | - |
+| FastSpeech2 recipe | Software | This is a fork of the original repository for "FastSpeech 2: Fast and High-Quality End-to-End Text to Speech" for Icelandic. | [GitHub](https://github.com/icelandic-lt/FastSpeech2)<br>[CLARIN-IS](http://hdl.handle.net/20.500.12537/201) | 22.03 | - | - | - | - |
+| GlowTTS Recipe | Software | Port of Coqui-ai TTS to Icelandic to produce multispeaker GlowTTS voice | [GitHub](https://github.com/icelandic-lt/coqui-ai-TTS)<br>[CLARIN-IS](http://hdl.handle.net/20.500.12537/293)<br>[CLARIN-IS](http://hdl.handle.net/20.500.12537/292) | 22.10 | - | - | - | - |
 | X-vector Tacotron2 recipe | Software | Port of ESPNet TTS to Icelandic to produce Y-Vectors for Tacotron2 | [GitHub](https://github.com/icelandic-lt/espnet) | 6 months | - | - | - | - |
 | Símarómur | Software | This project provides an Icelandic TTS application for the Android TTS service. The current state of the project is production-ready and the app is available on the Google Play Store. | [GitHub](https://github.com/icelandic-lt/simaromur) | 2 months | - | - | - | - |
 | IceG2P | Software | Grapheme-to-phoneme toolkit for Python. Uses G2P LSTM model. | [GitHub](https://github.com/icelandic-lt/ice-g2p) | - | - | - | - | - |
 | G2P-service | Software | Restful service for sequitur and fairseq g2p models | [GitHub](https://github.com/icelandic-lt/g2p-service) | 4 years | - | - | - | - |
-| Tiro-TTS | Software | TTS RESTful service in Python for serving fastspeech2 voice models as well as Amazon Polly voices | [GitHub](https://github.com/icelandic-lt/tiro-tts)<br>[Clarin.is](http://hdl.handle.net/20.500.12537/268) | 2 years | - | - | - | - |
+| Tiro-TTS | Software | TTS RESTful service in Python for serving fastspeech2 voice models as well as Amazon Polly voices | [GitHub](https://github.com/icelandic-lt/tiro-tts)<br>[CLARIN-IS](http://hdl.handle.net/20.500.12537/268) | 2 years | - | - | - | - |
 | LOBE | Software | Recording client made specifically for TTS data collections | [GitHub](https://github.com/icelandic-lt/LOBE) | 2 years | - | - | - | - |
 | Text cleaner | Software | Text cleaning module for processing raw text input. This module is a component of a TTS-Frontend engine, more specifically, it is the first step in processing raw text input before being normalized in the next step in the TTS-Frontend pipeline. | [GitHub](https://github.com/icelandic-lt/text-cleaner) | 2 years | - | - | - | - |
-| TTS frontend pipeline | Software | This project provides a TTS textprocessing pipeline for Icelandic. The pipeline includes modules for html parsing, text cleaning, text normalization for TTS, spell and grammar correction, phrasing, and grapheme-to-phoneme (g2p) conversion. | [GitHub](https://github.com/icelandic-lt/tts-frontend)<br>[Clarin.is](http://hdl.handle.net/20.500.12537/279) | 1 years | - | - | - | - |
+| TTS frontend pipeline | Software | This project provides a TTS textprocessing pipeline for Icelandic. The pipeline includes modules for html parsing, text cleaning, text normalization for TTS, spell and grammar correction, phrasing, and grapheme-to-phoneme (g2p) conversion. | [GitHub](https://github.com/icelandic-lt/tts-frontend)<br>[CLARIN-IS](http://hdl.handle.net/20.500.12537/279) | 1 years | - | - | - | - |
 | TTS frontend service | Software | gRPC service for the TTS frontend pipeline to provide the service in server environments as part of a network-based TTS system | [GitHub](https://github.com/icelandic-lt/tts-frontend-service) | 2 years | - | - | - | - |
 | TTS frontend API | Software | gRPC service definitions for the TTS frontend preprocessing pipeline | [GitHub](https://github.com/icelandic-lt/tts-frontend-api) | 3 years | - | - | - | - |
-| WebRICE | Software | The Webrice Chrome browser plugin is a software add-on that gives people access to listen to text on web pages. It is interfacing with a Tiro-TTS service over Internet | [GitHub](https://github.com/icelandic-lt/webrice-chrome-extension)<br>[Clarin.is](http://hdl.handle.net/20.500.12537/261) | 2 years | - | - | - | - |
-| Document reader | Software | Document reader web application that interfaces to a Tiro-TTS service via network | [GitHub](https://github.com/icelandic-lt/tts_webapp)<br>[Clarin.is](http://hdl.handle.net/20.500.12537/282) | 2 years | - | - | - | - |
+| WebRICE | Software | The Webrice Chrome browser plugin is a software add-on that gives people access to listen to text on web pages. It is interfacing with a Tiro-TTS service over Internet | [GitHub](https://github.com/icelandic-lt/webrice-chrome-extension)<br>[CLARIN-IS](http://hdl.handle.net/20.500.12537/261) | 2 years | - | - | - | - |
+| Document reader | Software | Document reader web application that interfaces to a Tiro-TTS service via network | [GitHub](https://github.com/icelandic-lt/tts_webapp)<br>[CLARIN-IS](http://hdl.handle.net/20.500.12537/282) | 2 years | - | - | - | - |
 | Tacotron2 and Fastspeech2 recipes | Software | Tacotron2 and Fastspeech2 recipes within the official ESPnet TTS project. This is a fork of ESPnet with updated recipes. | [GitHub](https://github.com/icelandic-lt/espnet) | - | - | - | - | - |
-| Álfur hratt | Model | FLite voice, based on the Festival Recipe, for usage in Símarómur up to v1.3. It is considered deprecated now, as FLite voices are not supported anymore in Símarómur. | [GitHub](https://github.com/grammatek/simaromur_voices/releases/tag/0.2) | 22.11 | - | - | YES | trainable via unit-selection-festival project |
-| Steinn - Símarómur | Model | VITS model for Símarómur, based on Piper TTS training pipeline. This is the current voice used for the Android App Símarómur. | [GitHub](https://github.com/icelandic-lt/simaromur_voices)<br>[Clarin.is](http://hdl.handle.net/20.500.12537/312) | 4 months | - | - | YES | - |
-| IceHoC | Model | IceHoC is a binary classifier for Icelandic homographs. The repository contains all training code as well as the models and uses the Icelandic Homograph Corpus | [GitHub](https://github.com/icelandic-lt/IceHoc)<br>[Clarin.is](http://hdl.handle.net/20.500.12537/329) | 2 months | - | - | YES | - |
-| Thrax G2P | Model | G2P grammar, models & runtime system in C++ for Edge-device usage (e.g. iOS, Android). This G2P system is a much faster but also less accurate G2P system in comparison to [IceG2P](https://github.com/icelandic-lt/ice-g2p). | [GitHub](https://github.com/icelandic-lt/g2p-thrax) | 3 years | - | - | NO | no training scripts, etc. |
-| G2P LSTM model | Model |  LSTM encoder-decoder sequence-to-sequence models, trained for Icelandic G2P. The models were trained using the baseline for the Sigmorphon 2020 Shared task in multilingual G2P, with manually transcribed training data of ~5,800 words per pronunciation variant. This is the model for [IceG2P](https://github.com/icelandic-lt/ice-g2p) | [GitHub](https://github.com/icelandic-lt/g2p-lstm) | 3 years ago | - | - | NO | no training scripts, etc. |
-| Talrómur 1 ESPnet Fastspeech2, Tacotron2 models | Model | This release contains TTS models for all 8 voices from Talrómur 1, intended for use with the ESPNet toolkit. The models are trained using fully phonemized, stress-annotated inputs including syllable boundary markers ('.') and word boundary markers (','), obtainable using [IceG2P](https://github.com/icelandic-lt/ice-g2p). The training recipes are included in the 202207 version of the toolkit. | [Clarin.is](http://hdl.handle.net/20.500.12537/294) | 22.10 | - | - | YES | - |
-| GlowTTS Talrómur 1 voice models | Model | GlowTTS models for four different voices from the Talrómur 1 corpus. The models were trained using the Coqui TTS library after it was adapted for Icelandic. | [Clarin.is](http://hdl.handle.net/20.500.12537/293) | - | - | - | Partially | No dataset preparation scripts |
-| Multi-Speaker GlowTTS Talrómur 2 voice model | Model | This release includes a partially trained multi-speaker model using the GlowTTS architecture in the Coqui TTS library. The model is trained on all of the speakers in the Talrómur 2 corpus. | [Clarin.is](http://hdl.handle.net/20.500.12537/293) | - | - | - | Partially | No dataset preparation scripts |
-| Talrómur 2 ESPnet Xvector Tacotron2 model | Model | - | [HuggingFace](https://huggingface.co/espnet/talromur2_xvector_tacotron2) | > 1 years | - | - | NO | No description, training scripts, etc. |
 

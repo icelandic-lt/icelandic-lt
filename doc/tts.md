@@ -86,14 +86,14 @@ For additional G2P-related resources, please refer to [Language Resources](./lr.
 
 [![Apache-2.0 License](https://img.shields.io/badge/License-Apache--2.0-blue)](https://opensource.org/licenses/Apache-2.0)  
 **Type:** Model  
-**Description:** FLite voice, based on the Festival Recipe, for usage in Símarómur up to v1.3. It is considered deprecated now, as FLite voices are not supported anymore in Símarómur since v2.0.  
+**Description:** FLite voice, based on the Festival Recipe, for usage in [Símarómur](https://github.com/icelandic-lt/simaromur) up to v1.3. It is considered deprecated now, as FLite voices are not supported anymore in Símarómur since v2.0.  
 **Location:** [GitHub](https://github.com/icelandic-lt/simaromur_voices/releases/tag/0.2)  
 
 ### ESPnet Talrómur 1 Fastspeech2, Tacotron2 models
 
 [![CC-BY-4.0 License](https://img.shields.io/badge/License-CC--BY--4.0-blue)](https://creativecommons.org/licenses/by/4.0/)  
 **Type:** Model  
-**Description:** This release contains TTS models for all 8 voices from Talrómur 1, intended for use with the ESPNet toolkit. The models are trained using fully phonemized, stress-annotated inputs including syllable boundary markers ('.') and word boundary markers (','), obtainable using IceG2P. The training recipes are included in the 202207 version of the toolkit.  
+**Description:** This release contains TTS models for all 8 voices from Talrómur 1, intended for use with the ESPNet toolkit. The models are trained using fully phonemized, stress-annotated inputs including syllable boundary markers ('.') and word boundary markers (','), obtainable using [IceG2P](https://github.com/icelandic-lt/ice-g2p). The training recipes are included in the 202207 version of the toolkit.  
 **Location:** [CLARIN-IS](http://hdl.handle.net/20.500.12537/294)  
 
 ### ESPnet Talrómur 2 Xvector Tacotron2 model
@@ -107,21 +107,21 @@ For additional G2P-related resources, please refer to [Language Resources](./lr.
 
 [![Apache-2.0 License](https://img.shields.io/badge/License-Apache--2.0-blue)](https://opensource.org/licenses/Apache-2.0)  
 **Type:** Model  
-**Description:** IceHoC is a binary classifier for Icelandic homographs. The repository contains all training code as well as the models and uses the Icelandic Homograph Corpus  
+**Description:** IceHoC is a binary classifier for Icelandic homographs. The repository contains all training code as well as the models and uses the [Icelandic Homograph Corpus](http://hdl.handle.net/20.500.12537/327)  
 **Location:** [GitHub](https://github.com/icelandic-lt/IceHoc), [CLARIN-IS](http://hdl.handle.net/20.500.12537/329)  
 
 ### G2P LSTM model
 
 [![Apache-2.0 License](https://img.shields.io/badge/License-Apache--2.0-blue)](https://opensource.org/licenses/Apache-2.0)  
 **Type:** Model  
-**Description:** LSTM encoder-decoder sequence-to-sequence models, trained for Icelandic G2P. The models were trained using the baseline for the Sigmorphon 2020 Shared task in multilingual G2P, with manually transcribed training data of ~5,800 words per pronunciation variant. This is the model for IceG2P.  
+**Description:** LSTM encoder-decoder sequence-to-sequence models, trained for Icelandic G2P. The models were trained using the baseline for the Sigmorphon 2020 Shared task in multilingual G2P, with manually transcribed training data of ~5,800 words per pronunciation variant. This is the model for [IceG2P](https://github.com/icelandic-lt/ice-g2p).  
 **Location:** [GitHub](https://github.com/icelandic-lt/g2p-lstm)  
 
 ### G2P Thrax
 
 [![Apache-2.0 License](https://img.shields.io/badge/License-Apache--2.0-blue)](https://opensource.org/licenses/Apache-2.0)  
 **Type:** Model  
-**Description:** G2P grammar, models & runtime system in C++ for Edge-device usage (e.g. iOS, Android). This G2P system is a much faster but also less accurate G2P system in comparison to IceG2P.  
+**Description:** G2P grammar, models & runtime system in C++ for Edge-device usage (e.g. iOS, Android). This G2P system is a much faster but also less accurate G2P system in comparison to [IceG2P](https://github.com/icelandic-lt/ice-g2p).  
 **Location:** [GitHub](https://github.com/icelandic-lt/g2p-thrax)  
 
 ### GlowTTS Talrómur 1 voice models
@@ -155,9 +155,9 @@ For additional G2P-related resources, please refer to [Language Resources](./lr.
 | FastSpeech2                 | Training code adapted to Icelandic of the original paper "FastSpeech 2: Fast and High-Quality End-to-End Text to Speech".                                                                                    | [GitHub](https://github.com/icelandic-lt/FastSpeech2)<br>[CLARIN-IS](http://hdl.handle.net/20.500.12537/201)                                                      |
 | Festival Unit-Selection     | Training code for generating unit selection voice for the Festival speech system                                                                                                                             | [GitHub](https://github.com/icelandic-lt/unit-selection-festival/)                                                                                                |
 | GlowTTS                     | Training code for Icelandic multi-speaker GlowTTS voice                                                                                                                                                      | [GitHub](https://github.com/icelandic-lt/coqui-ai-TTS)<br>[CLARIN-IS](http://hdl.handle.net/20.500.12537/293)<br>[CLARIN-IS](http://hdl.handle.net/20.500.12537/292)|
-| G2P LSTM model              | Training code for LSTM encoder-decoder sequence-to-sequence model used in IceG2P.                                                                                                                            | [GitHub](https://github.com/icelandic-lt/g2p-lstm)                                                                                                                |
+| G2P LSTM model              | Training code for LSTM encoder-decoder sequence-to-sequence model used in [IceG2P](https://github.com/icelandic-lt/ice-g2p).                                                                                 | [GitHub](https://github.com/icelandic-lt/g2p-lstm)                                                                                                                |
 | IceHoC                      | Training code for IceHoC - classifier for Icelandic homographs                                                                                                                                               | [GitHub](https://github.com/icelandic-lt/IceHoc)<br>[CLARIN-IS](http://hdl.handle.net/20.500.12537/329)                                                           |
-| Piper TTS                   | Training code for the VITS voice "Steinn" for the Símarómur Android App.                                                                                                                                     | [GitHub](https://github.com/rhasspy/piper)                                                                                                                        |
+| Piper TTS                   | Training code for the VITS voice "Steinn" for the [Símarómur](https://github.com/icelandic-lt/simaromur) Android App.                                                                                        | [GitHub](https://github.com/rhasspy/piper)                                                                                                                        |
 | Tacotron2 and Fastspeech2   | Training code for Tacotron2 and Fastspeech2 within the official ESPnet TTS project. Fork of ESPnet with updated recipes.                                                                                     | [GitHub](https://github.com/icelandic-lt/espnet)                                                                                                                  |
 | Thrax G2P                   | Training code & runtime for Thrax G2P                                                                                                                                                                        | [GitHub](https://github.com/icelandic-lt/g2p-thrax)                                                                                                               |
 | X-vector Tacotron2          | Training code for the Icelandic port of ESPNet TTS to produce X-Vectors for Tacotron2                                                                                                                        | [GitHub](https://github.com/icelandic-lt/espnet)                                                                                                                  |

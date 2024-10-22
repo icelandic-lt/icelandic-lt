@@ -5,8 +5,8 @@
 Support Tools are general NLP tools (tokenizers, taggers, parsers) that are often used as part of LT pipelines.<br>
 Additionally, this category also includes Icelandic language models under the BERT and Electra architectures. Language models are very time-consuming to train and often require large amounts of text data. The models developed here are provided as pre-trained models and can be used for various downstream tasks, such as Named Entity Recognition (NER), Part-of-Speech (PoS) Tagging, etc.
 
-How well these models perform on Icelandic can be seen in the [IceEval results](https://github.com/icelandic-lt/IceEval/blob/master/doc/results.md).<br>
-You can also find general training scripts for these models in the [IceEval repository](https://github.com/icelandic-lt/IceEval), for using these language models to train on your own data.
+How well these models perform on Icelandic can be seen in the [Leaderboard of Icelandic LM's](https://github.com/icelandic-lt/IceEval/blob/master/doc/results.md).<br>
+You can also find general training scripts for these models in the same [IceEval repository](https://github.com/icelandic-lt/IceEval), for using these language models to train on your own data.
 
 Our projects are categorized into:
 

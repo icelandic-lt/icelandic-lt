@@ -64,7 +64,7 @@ Our projects are categorized into:
 [![CC-BY-4.0 License](https://img.shields.io/badge/License-CC--BY--4.0-blue)](https://creativecommons.org/licenses/by/4.0/)  
 **Type:** Model  
 **Description:** Experimental variant of the Berkeley neural parser architecture  
-**Location:** [Clarin.is](http://hdl.handle.net/20.500.12537/149), [HuggingFace](https://huggingface.co/Icelandic-lt/neural_parser)  
+**Location:** [Clarin.is](http://hdl.handle.net/20.500.12537/149)  
 
 ---
 

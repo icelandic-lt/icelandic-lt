@@ -4,28 +4,119 @@
 
 `to be done`
 
-### Projects
+Our projects are categorized into:
 
-| Project-name | Type | <div style="width:350px"/> Description | <div style="width:100px"/> Location | Last update (05.24) | Status | Buildable | Model reproducable ? | Comment |
-|--------------|------|-------------|----------|---------------------|--------|-----------|----------------------|---------|
-| GreynirCorrect | Software | Python package and command line tool for checking and correcting various types of spelling and grammar errors in Icelandic text. | [GitHub](https://github.com/icelandic-lt/GreynirCorrect)<br>[Clarin.is](http://hdl.handle.net/20.500.12537/270) | 7 months | - | - | - | - |
-| Yfirlestur | Software | Web server where a user can enter or submit Icelandic text and have it checked for spelling and grammar errors. The core spelling and grammar checking functionality of is provided by the GreynirCorrect package | [GitHub](https://github.com/icelandic-lt/Yfirlestur)<br>[Clarin.is](http://hdl.handle.net/20.500.12537/266) | 22.09 | - | - | - | - |
-| GreynirCorrect4LT | Software | Slightly adapted version of GreynirCorrect package. This version is implemented for use in a text-to-speech text pre-processing pipeline and can quickly be adapted to other use cases in language technology applications | [GitHub](https://github.com/icelandic-lt/GreynirCorrect4LT) | 2 years | - | - | - | - |
-| Réttritun | Software | Réttritun is a spell checker that provides spell and grammar correction for Icelandic on Android devices. Spell checking is made via API calls over the Internet to a self-hosted Yfirlestur web service. | [GitHub](https://github.com/icelandic-lt/simacorrect) | 2 years | - | - | - | - |
-| AnySoftKeyboard / Icelandic language pack | Software | Plugin for Icelandic language pack for the AnySoft Android Keyboard project. This language pack has been mainlined and is now part of the official AnySoftKeyboard. | [GitHub](https://github.com/AnySoftKeyboard/AnySoftKeyboard) | 2 weeks | - | - | - | Upstreamed work to Anysoft Keyboard |
-| AnySoftKeyboard fork | Software | This version contains a new autocompleter module based on finite-state-transducers (FST) as implemented in the Apache Lucene library. The autocompleter uses a bigram list from the Icelandic Gigaword Corpus (ICG) to enable next word suggestions from the beginning and not just after the user has used the keyboard for a certain amount of time, as implemented in the original keyboard and upstreamed version. This version, however, still learns from the user, enhancing the original list with usage data and boosting frequently used combinations. | [GitHub](https://github.com/grammatek/AnySoftKeyboard/tree/v1.0.0-gt)<br>[Clarin.is](http://hdl.handle.net/20.500.12537/290) | 22.10 | - | - | - | move fork over from Grammatek to Icelandic-Lt |
-| Yfirlestur Plugin, Google Docs | Software | Plugin for Google Docs for Yfirlestur network service. Source code for a spelling and grammar correction add-on for Icelandic, for use with Google Docs. The plugin provides error annotation and replacement, based on user interaction. | [GitHub](https://github.com/icelandic-lt/Yfirlestur-Docs)<br>[Clarin.is](http://hdl.handle.net/20.500.12537/288) | 22.09 | - | - | - | - |
-| Yfirlestur Plugin, Microsoft Word | Software | Plugin for Microsoft Word for Yfirlestur network service. Source code for a spelling and grammar correction add-on for Icelandic, for use with Microsoft Word. The plugin provides error annotation and replacement, based on user interaction. | [GitHub](https://github.com/icelandic-lt/Yfirlestur-Word)<br>[Clarin.is](http://hdl.handle.net/20.500.12537/289) | 22.09 | - | - | - | - |
-| OCR Post-processing tool | Software | Transformer models to correct OCR errors, along with ca 50,000 line pairs of OCRed/corrected text. The models were trained on ca 900,000 lines (~7,000,000 tokens) of which only 50,000 (~400,000 tokens) were from real OCRed texts. | [GitHub](https://github.com/icelandic-lt/ocr-post-processing)<br>[Clarin.is](http://hdl.handle.net/20.500.12537/271) | 22.10 | - | - | - | Git-lfs problems when downloading because of quota problems, need to manually fix |
-| IceGrams | Software | Icegrams is a Python 3 package that encapsulates a large trigram library for Icelandic. 14 million unique trigrams and their frequency counts are heavily compressed using radix tries and quasi-succinct indices employing Elias-Fano encoding. | [GitHub](https://github.com/icelandic-lt/Icegrams)<br>[Clarin.is](http://hdl.handle.net/20.500.12537/80) | 2 years | - | - | - | - |
-| T5 Byte-Level Model | Model | This Byte-Level Neural Error Correction Model for Icelandic is a fine-tuned byT5-base Transformer model for error correction in natural language. It acts as a machine translation model in that it "translates" from deficient Icelandic to correct Icelandic. The model is an improved version of a previous model.  | [Clarin.is](http://hdl.handle.net/20.500.12537/324) | 24.03 | - | - | NO | No training / dataset preparation / evaluation scripts. Results not reproducable |
-| GPT-SW3 | Model | This is a model for correcting spelling and grammar errors in Icelandic text. It is a GPT-SW3 model (https://huggingface.co/AI-Sweden-Models/gpt-sw3-6.7b) finetuned on Icelandic and particularly on the spell and grammar checking task. | [Clarin.is](http://hdl.handle.net/20.500.12537/326) | 1 months | - | - | NO | No training / dataset preparation / evaluation scripts. Results not reproducable |
-| Multilabel error classifier | Model | Finetuned IceBert-base model with classification heads | [Clarin.is](http://hdl.handle.net/20.500.12537/183) | 22.01 | Experimental | - | NO | Usage of IceBert (AGPLv3) is not compatible with Project Goal |
-| Binary error classifier | Model | fine-tuned byT5-base Transformer model for error detection in natural language | [Clarin.is](http://hdl.handle.net/20.500.12537/256) | 22.09 | - | - | NO | - |
-| Byte level neural correction model | Model | Byte-Level Neural Error Correction Model for Icelandic is a fine-tuned byT5-base Transformer model for error correction in natural language | [Clarin.is](http://hdl.handle.net/20.500.12537/255) | 1 years | - | - | NO | - |
-| Grammatical Error Correction Test Set | Dataset | The Grammatical Error Correction Test Set contains test data for spell and grammar checking with a focus on semantic analysis. | [Clarin.is](http://hdl.handle.net/20.500.12537/320) | 23.12 | - | - | - | - |
-| Specialized Error Corpora | Dataset | The Icelandic L2 Error Corpus (IceL2EC) is a collection of texts in modern Icelandic, written by learners of Icelandic as a second language. The Icelandic Dyslexia Error Corpus (IceDEC) is a collection of texts in modern Icelandic, written by people who have been diagnosed with dyslexia. The Icelandic Child Language Error Corpus (IceCLEC) is a collection of texts in modern Icelandic, written by native speakers of Icelandic of ages 10 to 15. | [GitHub](https://github.com/icelandic-lt/iceErrorCorpusSpecialized)<br>[Clarin.is](http://hdl.handle.net/20.500.12537/280)<br>[Clarin.is](http://hdl.handle.net/20.500.12537/281)<br>[Clarin.is](http://hdl.handle.net/20.500.12537/133) | 2 years | - | - | - | - |
-| Taboo word list | Dataset | A list of words in Icelandic that may in some way be considered inappropriate, taboo and/or loaded in use or meaning. These can be words such as; words that are biased against certain minorities (i.e. people of different races, abilities, genders or sexualities), words that are derogatory towards people, unnecessarily gendered, obsolete and so on. | [GitHub](https://github.com/icelandic-lt/iceTaboo)<br>[Clarin.is](http://hdl.handle.net/20.500.12537/64) | 4 years | - | - | - | - |
-| Nonwords | Dataset | The Icelandic Error Corpus Nonwords is a list of Icelandic nonwords and their corrections, originating from the Icelandic Error Corpus. The word forms have been manually annotated as 'nonwords' and their corrections provided by proofreaders. | [Clarin.is](http://hdl.handle.net/20.500.12537/63) | 20.09 | - | - | - | - |
-| Nonwords, systematic errors | Dataset | A list of automatically prepared word forms containing systematic errors along with their corrections. All words are nonwords, i.e. they do not exist in Icelandic. All of the word forms are created by making substitutions commonly made by Icelandic informants, wherein a letter is replaced with another letter which sounds the same or does or does not have an accent. | [Clarin.is](http://hdl.handle.net/20.500.12537/50) | 20.09 | - | - | - | - |
-| Thesis testing | Dataset | List of manually corrected items in a student thesis from https://skemman.is. The list is a product of student theses testing, carried out as a part of developing a spell and grammar checker. | [Clarin.is](http://hdl.handle.net/20.500.12537/258) | 22.10 | - | - | - | - |
+* [Datasets](#datasets)
+* [Models](#models)
+* [Training Code](#training-code)
+* [Software](#software)
+
+---
+
+## Datasets
+
+### Grammatical Error Correction Test Set
+
+[![CC-BY-4.0 License](https://img.shields.io/badge/License-CC--BY--4.0-blue)](https://creativecommons.org/licenses/by/4.0/)  
+**Type:** Dataset  
+**Description:** The Grammatical Error Correction Test Set contains test data for spell and grammar checking with a focus on semantic analysis.  
+**Location:** [CLARIN-IS](http://hdl.handle.net/20.500.12537/320)  
+
+### Nonwords
+
+[![CC-BY-4.0 License](https://img.shields.io/badge/License-CC--BY--4.0-blue)](https://creativecommons.org/licenses/by/4.0/)  
+**Type:** Dataset  
+**Description:** A list of Icelandic nonwords (1323 words) and their corrections, originating from the Icelandic Error Corpus.  
+**Location:** [CLARIN-IS](http://hdl.handle.net/20.500.12537/63)  
+
+### Nonwords, systematic errors
+
+[![CC-BY-4.0 License](https://img.shields.io/badge/License-CC--BY--4.0-blue)](https://creativecommons.org/licenses/by/4.0/)  
+**Type:** Dataset  
+**Description:** A list of automatically prepared word forms (16155163 words) containing systematic errors along with their corrections.  
+**Location:** [CLARIN-IS](http://hdl.handle.net/20.500.12537/50)  
+
+### Specialized Error Corpora
+
+[![CC-BY-4.0 License](https://img.shields.io/badge/License-CC--BY--4.0-blue)](https://creativecommons.org/licenses/by/4.0/)  
+**Type:** Dataset  
+**Description:** Collection of three error corpora: IceL2EC (Icelandic L2 Error Corpus), IceDEC (Icelandic Dyslexia Error Corpus), and IceCLEC (Icelandic Child Language Error Corpus).  
+**Location:** [GitHub](https://github.com/icelandic-lt/iceErrorCorpusSpecialized), [CLARIN-IS (IceL2EC)](http://hdl.handle.net/20.500.12537/280), [CLARIN-IS (IceDEC)](http://hdl.handle.net/20.500.12537/281), [CLARIN-IS (IceCLEC)](http://hdl.handle.net/20.500.12537/133)  
+
+### Taboo word list
+
+[![CC-BY-4.0 License](https://img.shields.io/badge/License-CC--BY--4.0-blue)](https://creativecommons.org/licenses/by/4.0/)  
+**Type:** Dataset  
+**Description:** A list of words in Icelandic that may be considered inappropriate, taboo and/or loaded in use or meaning.  
+**Location:** [GitHub](https://github.com/icelandic-lt/iceTaboo), [CLARIN-IS](http://hdl.handle.net/20.500.12537/64)  
+
+### Thesis testing
+
+[![CC-BY-4.0 License](https://img.shields.io/badge/License-CC--BY--4.0-blue)](https://creativecommons.org/licenses/by/4.0/)  
+**Type:** Dataset  
+**Description:** List of manually corrected items in a student thesis from https://skemman.is.  
+**Location:** [CLARIN-IS](http://hdl.handle.net/20.500.12537/258)  
+
+---
+
+## Models
+
+### Binary error classifier
+
+[![CC-BY-4.0 License](https://img.shields.io/badge/License-CC--BY--4.0-blue)](https://creativecommons.org/licenses/by/4.0/)  
+**Type:** Model  
+**Description:** Fine-tuned byT5-base Transformer model for error detection in natural language.  
+**Location:** [CLARIN-IS](http://hdl.handle.net/20.500.12537/256)
+
+### Byte level neural correction model
+
+[![CC-BY-4.0 License](https://img.shields.io/badge/License-CC--BY--4.0-blue)](https://creativecommons.org/licenses/by/4.0/)  
+**Type:** Model  
+**Description:** Byte-Level Neural Error Correction Model for Icelandic, fine-tuned byT5-base Transformer model for error correction.  
+**Location:** [CLARIN-IS](http://hdl.handle.net/20.500.12537/255)  
+
+### GPT-SW3
+
+[![CC-BY-4.0 License](https://img.shields.io/badge/License-CC--BY--4.0-blue)](https://creativecommons.org/licenses/by/4.0/)  
+**Type:** Model  
+**Description:** GPT-SW3 model finetuned on Icelandic for spell and grammar checking tasks.  
+**Location:** [CLARIN-IS](http://hdl.handle.net/20.500.12537/326)  
+
+### Multilabel error classifier
+
+[![CC-BY-4.0 License](https://img.shields.io/badge/License-CC--BY--4.0-blue)](https://creativecommons.org/licenses/by/4.0/)  
+**Type:** Model  
+**Description:** Finetuned IceBert-base model with classification heads.  
+**Location:** [CLARIN-IS](http://hdl.handle.net/20.500.12537/183)  
+
+### T5 Byte-Level Model
+
+[![CC-BY-4.0 License](https://img.shields.io/badge/License-CC--BY--4.0-blue)](https://creativecommons.org/licenses/by/4.0/)  
+**Type:** Model  
+**Description:** Byte-Level Neural Error Correction Model for Icelandic, fine-tuned byT5-base Transformer model for error correction.  
+**Location:** [CLARIN-IS](http://hdl.handle.net/20.500.12537/324)
+
+---
+
+## Training Code
+
+| Training Code    | Description                                                        | Location                                                   |
+|------------------|--------------------------------------------------------------------|------------------------------------------------------------|
+| SG Model Scripts | Training code for all spell and grammar checking/correction models | [GitHub](https://github.com/icelandic-lt/sg-model-scripts) |
+
+---
+
+## Software
+
+| Software                                  | Description                                                                                                                      | Location                                                                                                                      |
+|-------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
+| AnySoftKeyboard                           | Version with a new autocompleter module based on finite-state-transducers (FST).                                                 | [GitHub](https://github.com/icelandic-lt/AnySoftKeyboard/tree/v1.0.0-gt), [CLARIN-IS](http://hdl.handle.net/20.500.12537/290) |
+| AnySoftKeyboard / Icelandic language pack | Plugin for Icelandic language pack for the AnySoft Android Keyboard project. Now part of the main AnySoftKeyboard repository.    | [GitHub](https://github.com/AnySoftKeyboard/AnySoftKeyboard)                                                                  |
+| GreynirCorrect                            | Python package and command line tool for checking and correcting various types of spelling and grammar errors in Icelandic text. | [GitHub](https://github.com/icelandic-lt/GreynirCorrect), [CLARIN-IS](http://hdl.handle.net/20.500.12537/270)                 |
+| GreynirCorrect4LT                         | Slightly adapted version of GreynirCorrect package for use in a text-to-speech text pre-processing pipeline.                     | [GitHub](https://github.com/icelandic-lt/GreynirCorrect4LT)                                                                   |
+| IceGrams                                  | Python 3 package that encapsulates a large trigram library for Icelandic.                                                        | [GitHub](https://github.com/icelandic-lt/Icegrams), [CLARIN-IS](http://hdl.handle.net/20.500.12537/80)                        |
+| OCR Post-processing tool                  | Transformer models to correct OCR errors, along with ca 50,000 line pairs of OCRed/corrected text.                               | [GitHub](https://github.com/icelandic-lt/ocr-post-processing), [CLARIN-IS](http://hdl.handle.net/20.500.12537/271)            |
+| Réttritun                                 | Spell checker that provides spell and grammar correction for Icelandic on Android devices.                                       | [GitHub](https://github.com/icelandic-lt/simacorrect)                                                                         |
+| Yfirlestur                                | Web server where a user can enter or submit Icelandic text and have it checked for spelling and grammar errors.                  | [GitHub](https://github.com/icelandic-lt/Yfirlestur), [CLARIN-IS](http://hdl.handle.net/20.500.12537/266)                     |
+| Yfirlestur Plugin, Google Docs            | Plugin for Google Docs for Yfirlestur network service.                                                                           | [GitHub](https://github.com/icelandic-lt/Yfirlestur-Docs), [CLARIN-IS](http://hdl.handle.net/20.500.12537/288)                |
+| Yfirlestur Plugin, Microsoft Word         | Plugin for Microsoft Word for Yfirlestur network service.                                                                        | [GitHub](https://github.com/icelandic-lt/Yfirlestur-Word), [CLARIN-IS](http://hdl.handle.net/20.500.12537/289)                |

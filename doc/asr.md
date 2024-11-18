@@ -13,6 +13,12 @@ Our projects are categorized into:
 
 ## Datasets
 
+### Broadcast Speech Corpus
+[![CC-BY-4.0 License](https://img.shields.io/badge/License-CC--BY--4.0-blue)](https://creativecommons.org/licenses/by/4.0/)  
+**Type:** Dataset  
+**Description:** ASR-corpus (193 hours, 1360 speakers). The Icelandic broadcast speech corpus comprises radio and TV data from RÚV. The radio data collection encompasses episodes of Spegillinn, morning news, evening news, Morgunútvarpið, Morgunvaktin and Samfélagið. The TV data data collection encompasses episodes of Kastljós. The corpus spans broadcasts from January 2020 to August 2021 and includes both prompted speech (e.g. from News) and conversational speech (e.g. Morgunvaktin and Kastljósið). The corpus is aligned, segmented, and features 40,746 distinct utterances from 1,360 speakers.<br>
+**Location:** [CLARIN-IS](http://hdl.handle.net/20.500.12537/193)  
+
 ### Kennslurómur, Lectures 
 
 [![CC-BY-4.0 License](https://img.shields.io/badge/License-CC--BY--4.0-blue)](https://creativecommons.org/licenses/by/4.0/)  

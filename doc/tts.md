@@ -136,7 +136,7 @@ For additional G2P-related resources, please refer to [Language Resources](./lr.
 [![CC-BY-4.0 License](https://img.shields.io/badge/License-CC--BY--4.0-blue)](https://creativecommons.org/licenses/by/4.0/)  
 **Type:** Model  
 **Description:** This release includes a partially trained multi-speaker model using the GlowTTS architecture in the Coqui TTS library. The model is trained on all the speakers in the Talrómur 2 corpus.  
-**Location:** [CLARIN-IS](http://hdl.handle.net/20.500.12537/293)  
+**Location:** [CLARIN-IS](http://hdl.handle.net/20.500.12537/292)  
 
 ### VITS model "Steinn" from voice Talrómur 1/H trained via Piper TTS
 

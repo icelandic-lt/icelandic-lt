@@ -117,20 +117,6 @@ Our projects are categorized into:
 
 ## Models
 
-### GreynirTranslate
-
-[![CC-BY-4.0 License](https://img.shields.io/badge/License-CC--BY--4.0-blue)](https://creativecommons.org/licenses/by/4.0/)  
-**Type:** Model  
-**Description:** General domain IS-EN and EN-IS translation models based on a multilingual BART model  
-**Location:** [CLARIN-IS](http://hdl.handle.net/20.500.12537/125)  
-
-### GreynirTranslate (with layer-drop)
-
-[![CC-BY-4.0 License](https://img.shields.io/badge/License-CC--BY--4.0-blue)](https://creativecommons.org/licenses/by/4.0/)  
-**Type:** Model  
-**Description:** Inference optimized version of GreynirTranslate with 40% layer drop with lower translation performance  
-**Location:** [CLARIN-IS](http://hdl.handle.net/20.500.12537/128)  
-
 ### Long Context Translation Models
 
 [![CC-BY-4.0 License](https://img.shields.io/badge/License-CC--BY--4.0-blue)](https://creativecommons.org/licenses/by/4.0/)  
@@ -144,6 +130,13 @@ Our projects are categorized into:
 **Type:** Model  
 **Description:** General domain IS-EN and EN-IS translation models based on a multilingual BART model  
 **Location:** [CLARIN-IS](http://hdl.handle.net/20.500.12537/125)  
+
+### mBART25 NMT (with layer drop) 
+
+[![CC-BY-4.0 License](https://img.shields.io/badge/License-CC--BY--4.0-blue)](https://creativecommons.org/licenses/by/4.0/)  
+**Type:** Model  
+**Description:** Inference optimized version of GreynirTranslate with 40% layer drop with lower translation performance  
+**Location:** [CLARIN-IS](http://hdl.handle.net/20.500.12537/128)  
 
 ### Optimized Long Context Translation Models
 

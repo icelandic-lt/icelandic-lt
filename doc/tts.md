@@ -143,7 +143,7 @@ For additional G2P-related resources, please refer to [Language Resources](./lr.
 [![CC-BY-4.0 License](https://img.shields.io/badge/License-CC--BY--4.0-blue)](https://creativecommons.org/licenses/by/4.0/)  
 **Type:** Model  
 **Description:** This model is used for the Android App [Símarómur](https://github.com/icelandic-lt/simaromur) for v2.0 and later and was trained and converted using the scripts from [Piper TTS](https://github.com/rhasspy/piper).  
-**Location:** [GitHub](https://github.com/grammatek/simaromur_voices)  
+**Location:** [GitHub](https://github.com/icelandic-lt/simaromur_voices)  
 
 ---
 
